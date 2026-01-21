@@ -1,5 +1,5 @@
 with customers as (
-    {{ customers_cte('stg_jaffle_shop__cus') }}
+    {{ customers_cte('stg_jaffle_shop__customers') }}
 ),
 
 orders as (
